@@ -1,7 +1,7 @@
 # Template file for 'ldb'
 pkgname=ldb
-version=2.9.0
-revision=3
+version=2.9.2
+revision=1
 build_style=waf3
 build_helper="qemu"
 configure_script="buildtools/bin/waf"
@@ -18,7 +18,7 @@ maintainer="Yuusha Spacewolf <xyuusha@paranoici.org>"
 license="LGPL-3.0-or-later"
 homepage="https://www.samba.org/ldb/"
 distfiles="https://download.samba.org/pub/ldb/ldb-${version}.tar.gz"
-checksum=105aaff71ad881a7faeb582fd416ae28221b6fde338fff82828065062c2507a5
+checksum=d155884002c79dbb1c3d8642f8b1013f2e520b3aeefd6e96412adec5b8d6cbc0
 make_check=extended # testsuite takes a long time
 
 export PYTHON_CONFIG="${XBPS_CROSS_BASE}/usr/bin/python3-config"
